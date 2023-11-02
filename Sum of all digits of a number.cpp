@@ -1,28 +1,19 @@
 #include<stdio.h>
 int main()
 {
-	int i,j,n,k,t;
-	//i is the length of the number
+	int n,k,t;
 	printf("Enter the number");
 	scanf("%d",&n);
 	k=n;
-	i=0;
+	t=0;
+	int z;
 	do
 	{
-		n=n/10;
-		i++;
-	}
-	while(n!=0);
-	int a[i];
-	for(j=0;j<i;j++)
-	{
-		a[j]=k%10;
+		z=k%10;
 		k=k/10;
+		t=t+z;
 	}
-	for(j=0;j<i;j++)
-	{
-	t=t+a[j];	
-	}
+	while(k!=0);
 	printf("%d",t);
 	return 0;
 }
