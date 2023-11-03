@@ -3,7 +3,7 @@
 int main ()
 {
 	int i,n,t,k,s,N;
-	printf("Enter the number to be reversed");
+	printf("Enter the number");
 	scanf("%d",&N);
 	scanf("%d",&n);
 	k=N;
