@@ -5,6 +5,7 @@ int main ()
 	int i,n,t,k,s,N;
 	printf("Enter the number");
 	scanf("%d",&N);
+ printf("Enter the length of the number");
 	scanf("%d",&n);
 	k=N;
 	s=0;
